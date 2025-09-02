@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main () {
+    char estado = 'Sao Paulo';
+    char codigo da carta [5] = "A01";
+    char nome da cidade [20] = "SAO PAULO";
+    int população = 11900000;
+    float area em km = 248210;
+    float PIB = 763800000000;
+    int numero de pontos turisticos = 80;
+
+    prinft ("")
+}
