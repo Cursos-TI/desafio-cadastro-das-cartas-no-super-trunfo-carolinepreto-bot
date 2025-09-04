@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    char estado[20] = "Bahia";
+    char codigo_carta[5] = "A05";
+    char nome_cidade[20] = "SALVADOR";
+    int populacao = 2570000;
+    float area_km = 30334;
+    double PIB = 62954.0;
+    int numero_pontos_turisticos = 15;
+
+    printf("Carta Super Trunfo\n");
+    printf("Codigo: %s\n", codigo_carta);
+    printf("Cidade: %s\n", nome_cidade);
+    printf("Estado: %s\n", estado);
+    printf("Populacao: %d habitantes\n", populacao);
+    printf("Area: %.2f km²\n", area_km);
+    printf("PIB: %.2lf\n", PIB);
+    printf("Pontos Turisticos: %d\n", numero_pontos_turisticos);
+
+    return 0;
+}
